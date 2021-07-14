@@ -75,9 +75,9 @@ body {
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .hero {
-        height: 150px;
+        height: 300px;
     }
 }
 
@@ -214,7 +214,8 @@ body {
 
 @media screen and (max-width: 600px) {
     .title p{
-        padding-top: 50px;
+        padding-top: 100px;
+        font-size: 36px;
     }
 }
 .flexbox-container {
@@ -372,6 +373,11 @@ h5 {
    
 }
 
+@media screen and (max-width:600px) {
+    .img-responsive img{
+        width: 150px
+    }
+}
 .text-responsive h2{
     font-family: lora;
     font-size: 24px;
@@ -379,15 +385,31 @@ h5 {
 
 }
 
+@media screen and (max-width:600px){
+    .text-responsive h2{
+        font-size: 18px;
+    }
+}
+
 .text-responsive p {
     font-size: 18px;
     color: #C9AA8B;
 }
 
+@media screen and (max-width:600px){
+    .text-responsive p{
+        font-size: 14px;
+    }
+}
 .text-responsive {
     padding-left: 100px;
 }
 
+@media screen and (max-width:600px){
+    .text-responsive{
+        padding-left: 50px;
+    }
+}
 .text-responsive button  {
     color: #C9AA8B;
     background-color: black ;
@@ -419,12 +441,28 @@ h5 {
     padding-bottom: 50px;
 }
 
+@media screen and (max-width:600px){
+    .container2{
+        margin-left: 50px;
+        
+        
+    }
+}
+
 .img-responsive2 img{
     /* max-width: 100%; */
     width: 300px;
     border-radius: 10px 10px 10px 10px;
   
    
+}
+
+@media screen and (max-width:600px) {
+    .img-responsive2 img{
+        width: 150px;
+        margin-top: -200px;
+        margin-left: -10px;
+    }
 }
 
 .text-responsive2 h2{
@@ -434,15 +472,31 @@ h5 {
 
 }
 
+@media screen and (max-width:600px){
+    .text-responsive2 h2{
+        font-size: 18px;
+    }
+}
+
 .text-responsive2 p {
     font-size: 18px;
     color: #C9AA8B;
 }
 
+@media screen and (max-width:600px){
+    .text-responsive2 p{
+        font-size: 14px;
+    }
+}
 .text-responsive2 {
     padding-left: 100px;
 }
 
+@media screen and (max-width:600px){
+    .text-responsive2{
+        padding-left: 50px;
+    }
+}
 .text-responsive2 button  {
     color: #C9AA8B;
     background-color: black ;
@@ -480,6 +534,12 @@ h5 {
    
 }
 
+@media screen and (max-width:600px) {
+    .img-responsive3 img{
+        width: 150px
+    }
+}
+
 .text-responsive3 h2{
     font-family: lora;
     font-size: 24px;
@@ -487,15 +547,32 @@ h5 {
 
 }
 
+@media screen and (max-width:600px){
+    .text-responsive3 h2{
+        font-size: 18px;
+    }
+}
+
 .text-responsive3 p {
     font-size: 18px;
     color: #C9AA8B;
+}
+
+@media screen and (max-width:600px){
+    .text-responsive3 p{
+        font-size: 14px;
+    }
 }
 
 .text-responsive3 {
     padding-left: 160px;
 }
 
+@media screen and (max-width:600px){
+    .text-responsive3{
+        padding-left: 50px;
+    }
+}
 .text-responsive3 button  {
     color: #C9AA8B;
     background-color: black ;
@@ -526,7 +603,7 @@ h5 {
 
 @media screen and (max-width:600px) {
     .footer {
-        margin-top: 700px;
+        margin-top: 2000px;
         
     }
 }
